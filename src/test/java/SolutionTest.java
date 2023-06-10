@@ -6,7 +6,7 @@ public class SolutionTest {
     public void minimumDeleteSumTest1() {
         String s1 = "sea";
         String s2 = "eat";
-        int output = 321;
+        int output = 231;
         Assert.assertEquals(output, new Solution().minimumDeleteSum(s1, s2));
     }
 
